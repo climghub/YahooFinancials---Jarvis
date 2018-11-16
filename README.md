@@ -9,7 +9,7 @@ My personal stock market analyzer built on yahoofinancials, written on Python 3
 - sqlite3
 - numpy
 
-3. Stock names and tickers are stored in [stocklistfile](stocklistfile.py), make sure you store this py in the same folder of [main code](stockJarvis.py)
+3. Stock names and tickers are stored in [stocklistfile](stocklistfile.py), make sure you store this py in the same folder as [main code](stockJarvis.py)
 
 4. To run, first select the exchange
 ```
