@@ -119,9 +119,9 @@ elif not read_data:
     if not df_stock.empty:
         print("Retrieved "+ str(len(df_stock.date.unique()))+ " days records of " + str(len(df_stock.name.unique())) +" stocks in " + str(timeb-timea))
         # Write stock data to database
-#        conn = sqlite3.connect(database)
-#        cur = conn.cursor()
-#        df_stock.to_sql("table1",conn,if_exists='append',index=False)
+        conn = sqlite3.connect(database)
+        cur = conn.cursor()
+        df_stock.to_sql("table1",conn,if_exists='append',index=False)
         
 else:
          
